@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/*
- * @desc: This function aims to print out some text on screen.
- *
-  */
+/**
+ * main - print out some text
+ * Return: zero
+ */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art\n");
+	printf("with proper grammar, but the outcome is a piece of art\n\n");
 	return (0);
 }
 
