@@ -1,13 +1,18 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 /**
- * main - use puts function to print some text
- * Return: zero
+ *main - Main function of my project
+ *
+ *
+ *Return: return 0 everytime
  */
 int main(void)
 {
-	puts("\"Programmming is like building a multilingual puzzle");
+
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
 	return (0);
 }
-
